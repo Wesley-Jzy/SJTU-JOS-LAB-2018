@@ -1,0 +1,43 @@
+6828 decimal is 015254 octal!
+pading space in the right to number 22: 22      .
+show me the sign: +1024, -1024
+Physical memory: 66556K available, base = 640K, extended = 65532K
+check_page_alloc() succeeded!
+check_page() succeeded!
+check_kern_pgdir() succeeded!
+check_page_installed_pgdir() succeeded!
+SMP: CPU 0 found 1 CPU(s)
+enabled interrupts: 1 2
+FS is running
+FS can do I/O
+Device 1 presence: 1
+icode startup
+icode: open /motd
+block cache is good
+superblock is good
+bitmap is good
+alloc_block is good
+file_open is good
+file_get_block is good
+file_flush is good
+file_truncate is good
+file rewrite is good
+icode: read /motd
+This is /motd, the message of the day.
+
+Welcome to the JOS kernel, now with a file system!
+
+icode: close /motd
+icode: spawn /init
+icode: exiting
+[00001009] exiting gracefully
+init: running
+init: data seems okay
+init: bss seems okay
+init: args: 'init' 'initarg1' 'initarg2'
+init: exiting
+[0000100a] exiting gracefully
+No more runnable environments!
+Welcome to the JOS kernel monitor!
+Type 'help' for a list of commands.
+K> 
